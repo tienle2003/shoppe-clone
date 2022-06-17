@@ -1,5 +1,16 @@
 
 /* product head */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, rgb(136, 204, 244), rgb(245, 62, 45));
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border-radius: 10px;
+}
 a {
     text-decoration: none;
 }
@@ -691,6 +702,7 @@ i.product__head-like-icon-fill {
     width: 72px;
     height: 72px;
     margin-right: 10px;
+    object-fit: cover;
 }
 
 .product__item-user-cmt-like {
